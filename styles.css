@@ -9,6 +9,16 @@ body{
     margin:0;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+    transition-duration: 1s;
+}
 
 #navbar{
     width:50%; 
@@ -39,6 +49,20 @@ body{
 
 #hero{
     background-image: url("images/book-flat.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+#synopsis{
+    height:100%;
+    background-color:aquamarine;
+}
+
+#reviews{
+    background-color:blueviolet;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

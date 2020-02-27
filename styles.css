@@ -58,11 +58,29 @@ a:hover{
 
 #synopsis{
     height:100%;
-    background-color:aquamarine;
+    background-color:rgba(70,119,120,0.9);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.inner-synopsis{
+    margin-top:50px;
+    height:85%;
+    width: 40%;
+    border-radius:8px;
+}
+
+#inner-synopsis-left{
+    background-color:black;
+}
+
+#inner-synopsis-right{
+    background-color:black;
 }
 
 #reviews{
-    background-color:blueviolet;
+    background-color:rgb(193,223,225);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

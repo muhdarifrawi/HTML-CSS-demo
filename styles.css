@@ -67,8 +67,44 @@ a:hover{
 .inner-synopsis{
     margin-top:50px;
     height:85%;
-    width: 40%;
+    width: 42%;
     border-radius:8px;
+}
+
+.synopsis-flair{
+    color:white;
+    margin: 20% 7% 5% 7%;
+}
+
+.flair-para-body{
+    display: flex;
+    flex-direction:row;
+
+}
+
+.flair-para{
+    font-size:25px;
+    margin: 5% 2% 5% 12%;
+}
+
+.synopsis-para{
+    color:white;
+    margin: 20% 7% 20% 7%;
+    font-size:23px;
+    text-align:center;
+}
+
+.emphasis{
+    font-size:45px;
+    color:white;
+}
+
+.emphasis-end{
+    font-size:45px;
+    color:white;
+}
+.tab{
+    margin-left:2em;
 }
 
 #inner-synopsis-left{

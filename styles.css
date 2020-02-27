@@ -122,4 +122,22 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
+    display:flex;
+}
+
+.reviewer{
+    background-color: aliceblue;
+    height: 20rem;
+    width: 20rem;
+    margin: 3em;
+    border-radius: 8px;
+}
+
+.reviewer-comment{
+    margin:10%;
+    font-size: 2em;
+}
+
+.reviewer-name{
+    font-size:0.75em;
 }

@@ -169,3 +169,39 @@ a:hover{
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#purchase{
+    height:100%;
+    background-color:rgba(70,119,120,0.9);
+    
+}
+
+.purchase-bubble-big{
+    height: 500px;
+    width:500px;
+    border-radius:250px;
+    background-color:rgb(193,223,225);
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
+
+.purchase-bubble-small{
+    height: 200px;
+    width:200px;
+    border-radius:100px;
+    background-color:rgb(240,248,255);
+    position: relative;
+    bottom: 400px;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bubble-small-comment{
+    font-size:1.5em;
+    font-style: bold;
+    color:black;
+    margin-left:15px;
+}

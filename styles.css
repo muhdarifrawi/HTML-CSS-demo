@@ -123,21 +123,49 @@ a:hover{
     background-size: cover;
     height:100%;
     display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#reviewer-box{
+    height:100%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
 }
 
 .reviewer{
     background-color: aliceblue;
-    height: 20rem;
-    width: 20rem;
-    margin: 3em;
-    border-radius: 8px;
+    height: 250px;
+    width: 250px;
+    border-radius: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reviewer2{
+    background-color: aliceblue;
+    height: 250px;
+    width: 250px;
+    border-radius: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self:flex-end;
 }
 
 .reviewer-comment{
-    margin:10%;
     font-size: 2em;
 }
 
 .reviewer-name{
     font-size:0.75em;
+}
+
+#review-image{
+    height: 450px;
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

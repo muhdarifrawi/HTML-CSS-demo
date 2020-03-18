@@ -182,7 +182,7 @@ a:hover{
     border-radius:250px;
     background-color:rgb(193,223,225);
     position: relative;
-    top: 100px;
+    top: 80px;
     left: 550px;
 }
 
@@ -251,4 +251,14 @@ a:hover{
 .bio-name{
     font-size:34px;
     font-weight:bold;
+}
+
+#links{
+    height:100%;
+    background-color:rgba(70,119,120,0.9);
+}
+
+#footer{
+    background-color:black;
+    height:25%;
 }

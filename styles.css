@@ -205,3 +205,13 @@ a:hover{
     color:black;
     margin-left:15px;
 }
+
+#author{
+    height:100%;
+    background-color:rgba(193,223,225,0.9);
+}
+
+.author-image{
+    height:80%;
+    width:auto;
+}

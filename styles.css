@@ -209,6 +209,8 @@ a:hover{
 #author{
     height:100%;
     background-color:rgba(193,223,225,0.9);
+    display:flex;
+    align-items:center;
 }
 
 /* Thank you: https://www.webfx.com/blog/web-design/circular-images-css/ */
@@ -220,8 +222,8 @@ a:hover{
     height: 500px;
     overflow: hidden;
     border-radius: 50%;
-    top: 50px;
-    left:200px;
+    z-index:1;
+    margin-left:100px;
 }
 
 .author-image img{
@@ -230,3 +232,11 @@ a:hover{
     margin-left:-40px;
 }
 
+.author-bio{
+    background-color:black;
+    height:300px;
+    width: 500px;
+    border-radius:50px;
+    position:relative;
+    margin-left:-95px;
+}

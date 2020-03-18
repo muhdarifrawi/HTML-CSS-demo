@@ -256,9 +256,40 @@ a:hover{
 #links{
     height:100%;
     background-color:rgba(70,119,120,0.9);
+    display:flex;
+    align-items: center;
+}
+
+#libby{
+    height:200px;
+    width:200px;
+    position:relative;
+    left:300px;
+    bottom:160px;
+    z-index:1;
+}
+
+.link-box{
+    background-color:rgb(240,248,255);
+    height:300px;
+    width: 500px;
+    border-radius:40px;
+    position:relative;
+    margin: 200px;
+    display:flex;
+    align-items:center;
+}
+
+.link-text{
+    color:black;
+    margin-left:80px;
+    margin-right:80px;
+    font-size: 28px;
+    line-height:34px;
 }
 
 #footer{
     background-color:black;
     height:25%;
 }
+

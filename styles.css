@@ -290,6 +290,28 @@ a:hover{
 
 #footer{
     background-color:black;
-    height:25%;
+    height:50%;
+}
+
+#footer-box{
+    height:100%;
+    display: flex;
+    align-items:center;
+
+}
+
+#contact{
+    padding:30px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+}
+
+#contact h4{
+    margin:3px;
+}
+
+#contact p{
+    margin-top:5px;
 }
 

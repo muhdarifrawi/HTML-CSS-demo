@@ -211,7 +211,22 @@ a:hover{
     background-color:rgba(193,223,225,0.9);
 }
 
+/* Thank you: https://www.webfx.com/blog/web-design/circular-images-css/ */
+
 .author-image{
-    height:80%;
-    width:auto;
+    display:inline-block;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    top: 50px;
+    left:200px;
 }
+
+.author-image img{
+    width: 150%;
+    height: auto;
+    margin-left:-40px;
+}
+

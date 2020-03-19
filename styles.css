@@ -313,7 +313,7 @@ a:hover{
     height:100%;
     display: flex;
     align-items:center;
-
+    justify-content: space-around;
 }
 
 #contact{
@@ -331,3 +331,24 @@ a:hover{
     margin-top:5px;
 }
 
+#insta, #fb, #twitter{
+    height:80px;
+    background-color:white;
+    border-radius:10px;
+    margin:20px;
+}
+
+#copyright{
+    color:white;
+    font-size:15px;
+}
+
+#icon8{
+    color:white;
+}
+
+#icon8:hover {
+    color:black;
+    background-color:white;
+    padding:0.5px;
+}

@@ -184,6 +184,22 @@ a:hover{
     position: relative;
     top: 80px;
     left: 550px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+#amazon{
+    height:120px;
+}
+
+#kino{
+    height:120px;
+}
+
+#times{
+    height:120px;
 }
 
 .purchase-bubble-small{

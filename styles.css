@@ -54,6 +54,39 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
+    display:flex;
+    align-items:center;
+}
+
+#hero-content{
+    width:25%;
+    margin-left:80px;
+    margin-top:230px;
+}
+
+#hero-header{
+    margin:0px;
+}
+
+hr{
+    border:1px solid black;
+}
+
+#hero-para{
+
+}
+
+#hero-btn{
+    background-color:rgb(56,121,109);
+    width:100px;
+    padding:5px;
+    border-radius:3px;
+    text-align:center;
+    color:white;
+}
+
+#hero-btn:hover{
+    background-color:rgb(56, 180, 114);
 }
 
 #synopsis{

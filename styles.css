@@ -12,11 +12,13 @@ body{
 a{
     text-decoration: none;
     color:black;
+    padding:3px;
 }
 
 a:hover{
     text-decoration: none;
     color:white;
+    background-color:black;
     transition-duration: 1s;
 }
 
@@ -40,12 +42,20 @@ a:hover{
     padding: 3px;    
 }
 
-#navbar li:hover{
+/* #navbar li:hover{
     padding:3px;
     background-color: black;
     color: white;
     transition-duration: 1s;
     cursor:default;
+} */
+
+#local-logo{
+    height:80px;
+}
+
+#local-logo:hover{
+    background-color:white;
 }
 
 #hero{
@@ -381,10 +391,10 @@ hr{
 
 #cr-link{
     color:white;
+    padding:1px;
 }
 
 #cr-link:hover {
     color:black;
     background-color:white;
-    padding:0.5px;
 }

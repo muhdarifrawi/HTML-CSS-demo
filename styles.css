@@ -34,6 +34,8 @@ a:hover{
     width:100%;
     display: inline-flex;
     justify-content: space-between;
+    align-items:center;
+    font-size:21px;
 }
 
 #navbar li{
@@ -51,7 +53,7 @@ a:hover{
 } */
 
 #local-logo{
-    height:50px;
+    height:72px;
 }
 
 #local-logo:hover{

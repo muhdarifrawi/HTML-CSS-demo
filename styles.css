@@ -13,6 +13,7 @@ a{
     text-decoration: none;
     color:black;
     padding:3px;
+    transition-duration:1s;
 }
 
 a:hover{
@@ -56,6 +57,7 @@ a:hover{
 
 #local-logo{
     height:72px;
+    transition-duration:1s;
 }
 
 #local-logo:hover{
@@ -397,9 +399,11 @@ hr{
 #cr-link{
     color:white;
     padding:1px;
+    transition-duration:1s;
 }
 
 #cr-link:hover {
     color:black;
     background-color:white;
+    transition-duration:1s;
 }

@@ -45,6 +45,7 @@ a:hover{
     background-color: black;
     color: white;
     transition-duration: 1s;
+    cursor:default;
 }
 
 #hero{
@@ -378,11 +379,11 @@ hr{
     text-align: center;
 }
 
-#icon8{
+#cr-link{
     color:white;
 }
 
-#icon8:hover {
+#cr-link:hover {
     color:black;
     background-color:white;
     padding:0.5px;
